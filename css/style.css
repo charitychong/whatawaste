@@ -97,6 +97,7 @@ button:hover {
 }
 
 footer {
+  width: 80%;
   display: flex;
   text-align: center;
   flex-direction: column;
@@ -134,7 +135,7 @@ footer a {
 
 .smoothies:hover .lemon {
   transition: 0.3s;
-  transform: translateX(-15px) rotate(-5deg) translateY(-5px);
+  transform: translateX(10px) rotate(3deg) translateY(-40px);
 }
 .smoothies:hover .pineapple {
   transition: 0.3s;
@@ -142,11 +143,11 @@ footer a {
 }
 .smoothies:hover .blueberry1 {
   transition: 0.3s;
-  transform: translateX(-15px) rotate(-5deg) translateY(-5px);
+  transform: translateX(-30px) rotate(-9deg) translateY(-7px);
 }
 .smoothies:hover .blueberry2 {
   transition: 0.3s;
-  transform: translateX(-15px) rotate(-5deg) translateY(-5px);
+  transform: translateX(-30px) rotate(-7deg) translateY(-9px);
 }
 .smoothies:hover .grapes {
   transition: 0.3s;
