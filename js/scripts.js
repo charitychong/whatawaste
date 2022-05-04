@@ -7,8 +7,15 @@ $('.food__btn').click(function(){
 
 
 
+
 $('.close').click(function(){
 
   $(this).parent().slideToggle('slow');
 });
 
+
+
+$('.blend').click(function(){
+
+  $(this).parent().slideToggle('slow');
+});

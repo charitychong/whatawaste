@@ -18,6 +18,7 @@ h2 {
   width: 80%;
   text-align: center;
   margin: auto;
+  padding-bottom: 2rem;
 }
 
 button {
@@ -52,26 +53,6 @@ button {
   h1{
     margin-top: 1rem;
     margin-bottom: 20px;
-  }
-}
-
-.leftover-soup {
-  &:hover{
-    .carrot {
-      transition: 0.3s;
-      transform: translateX(-15px) rotate(-5deg) translateY(-5px);
-      
-    }
-
-    .garlic {
-      transition: 0.3s;
-      transform: translateX(-45px) rotate(-10deg) translateY(-5px);
-    }
-
-    .onion {
-      transition: 0.3s;
-      transform: translateX(15px) rotate(5deg) translateY(-35px);
-    }
   }
 }
 
@@ -150,8 +131,10 @@ footer {
 
 
 .charitylogo {
-  width: 10%;
+  width: 50px;
+  height: auto;
   margin: auto;
+
 }
 
 
@@ -167,7 +150,65 @@ footer {
 
 
 
+/* food animations */
 
+.leftover-soup {
+  &:hover{
+    .carrot {
+      transition: 0.3s;
+      transform: translateX(-15px) rotate(-5deg) translateY(-5px);
+      
+    }
+
+    .garlic {
+      transition: 0.3s;
+      transform: translateX(-45px) rotate(-10deg) translateY(-5px);
+    }
+
+    .onion {
+      transition: 0.3s;
+      transform: translateX(15px) rotate(5deg) translateY(-35px);
+    }
+  }
+}
+
+.broccoli {
+  &:hover{
+    transition: 0.3s;
+    transform: translateX(-15px) rotate(-5deg) translateY(-5px);
+  }
+}
+
+
+.smoothies {
+  &:hover{
+    .lemon {
+      transition: 0.3s;
+      transform: translateX(-15px) rotate(-5deg) translateY(-5px);
+      
+    }
+    .pineapple {
+      transition: 0.3s;
+      transform: translateX(-15px) rotate(-5deg) translateY(-5px);
+      
+    }
+    .blueberry1 {
+      transition: 0.3s;
+      transform: translateX(-15px) rotate(-5deg) translateY(-5px);
+      
+    }
+    .blueberry2 {
+      transition: 0.3s;
+      transform: translateX(-15px) rotate(-5deg) translateY(-5px);
+      
+    }
+    .grapes {
+      transition: 0.3s;
+      transform: translateX(-15px) rotate(-5deg) translateY(-5px);
+      
+    }
+  }
+}
 
 
 
@@ -235,6 +276,17 @@ footer {
 .e5{fill:#DBD1C3;}
 .e6{fill:#E5DBD0;}
 .e7{fill:#F7F1E9;}
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* TYPE STUFF */
