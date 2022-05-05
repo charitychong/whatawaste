@@ -4,7 +4,7 @@
 This project was coded using BEM.
 Other tools that were used include: SASS, HTML, CSS, Visual Studio Code, Apple Terminal, Photoshop, and Illustrator.
 
-- 🔭 I’m currently working on [GRA494: Front-End Design and Development](https://github.com/charitychong/gra-494-charity)
+- 🔭 I’m currently working on [GRA462: Visual Communication ](https://github.com/charitychong/gra-494-charity)
 
 - 🌱 I’m currently learning **Front-End development**
 
