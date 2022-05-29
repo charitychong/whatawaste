@@ -152,7 +152,33 @@ footer a {
 }
 .smoothies:hover .grapes {
   transition: 0.3s;
+  transform: translateX(25px) rotate(3deg) translateY(-30px);
+}
+
+.croutons:hover .bread1 {
+  transition: 0.3s;
   transform: translateX(-15px) rotate(-5deg) translateY(-5px);
+}
+.croutons:hover .bread2 {
+  transition: 0.3s;
+  transform: translateX(25px) rotate(5deg) translateY(-25px);
+}
+
+.pesto:hover .leaf1 {
+  transition: 0.3s;
+  transform: translateX(0px) rotate(2deg) translateY(-20px);
+}
+.pesto:hover .leaf2 {
+  transition: 0.3s;
+  transform: translateX(-25px) rotate(-10deg) translateY(10px);
+}
+.pesto:hover .lemon2 {
+  transition: 0.3s;
+  transform: translateX(25px) rotate(10deg) translateY(-45px);
+}
+.pesto:hover .garlic {
+  transition: 0.3s;
+  transform: translateX(35px) rotate(10deg) translateY(-35px);
 }
 
 /* LEFTOVER SOUP SVG */
